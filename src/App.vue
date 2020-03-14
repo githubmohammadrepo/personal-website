@@ -1,32 +1,22 @@
 <template>
   <div id="app">
-
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <Animation />
+    <VueNav />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Animation from './components/Animation.vue'
-
+import VueNav from './components/vue-navbar'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    Animation
+    VueNav
   }
 }
 </script>
 
 <style>
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  
 }
 </style>
