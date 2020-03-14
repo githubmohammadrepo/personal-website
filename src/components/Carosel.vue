@@ -6,7 +6,6 @@
       fade
       v-model="slide"
       :interval="4000"
-      indicators
       background="#ababab"
       img-width="1024"
       img-height="480"

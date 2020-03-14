@@ -1,13 +1,15 @@
 <template>
   <div id="app">
-    <div class="vh-100">
-      <VueNav />
-      <hr width="0px" class="my-2">
-      <div class="d-flex align-content-center flex-wrap">
-        <Carosel />
+    <div class="vh-100 d-flex justify-content-center flex-wrap">
+      <VueNav class="w-100"/>
+      <!-- <hr width="0px" class="my-2"> -->
+        <div class="w-100"></div>
+        <Carosel class=" w-75 m-auto"/>
+        <div class="w-100"></div>
+        <div class="w-100"></div>
+
       </div>
     </div>
-  </div>
 </template>
 
 <script>
