@@ -3,7 +3,7 @@
     <div class="vh-100">
       <VueNav />
       <hr width="0px" class="my-2">
-      <div class="flex-column justify-content-center">
+      <div class="d-flex align-content-center flex-wrap">
         <Carosel />
       </div>
     </div>
