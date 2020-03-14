@@ -1,14 +1,16 @@
 <template>
-<div class="dir">
+<div >
   <b-navbar  toggleable="lg" type="dark" variant="info">
-    <b-navbar-brand href="#">NavBar</b-navbar-brand>
+    <b-navbar-brand href="#">    
+      <b-icon-command></b-icon-command>
+    </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
         <b-nav-item href="#">Link</b-nav-item>
-        <b-nav-item href="#" disabled><span class="red">Disabled</span></b-nav-item>
+        <b-nav-item href="#" disabled>Disabled</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
@@ -45,7 +47,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
     .dir{
         direction:rtl;
       .red{
